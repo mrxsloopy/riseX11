@@ -1,0 +1,19 @@
+# --- Base ---
+theme = "gruvbox_dark_hard_transparent"
+[editor]
+line-number = "relative"
+true-color = true
+color-modes = true
+shell = ["sh", "-c"]
+
+# --- Autocompletion & LSP ---
+[editor.lsp]
+enable = true
+display-messages = true
+display-inlay-hints = true
+
+# --- Binds  ---
+[keys.insert]
+j = { k = "normal_mode" }
+[keys.select]
+j = { k = "normal_mode" }
